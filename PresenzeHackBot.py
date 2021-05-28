@@ -5,11 +5,11 @@ from telegram import Update, ForceReply
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 from datetime import date
 import Database as db
-import SEGRETI
+import segretissimo
 from dateutil.parser import parse
 
 
-TOKEN = SEGRETI.TOKEN
+TOKEN = segretissimo.TOKEN
 
 # Enable logging
 logging.basicConfig(
